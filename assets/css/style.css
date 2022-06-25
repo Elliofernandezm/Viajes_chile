@@ -1,0 +1,10 @@
+.icononav{ 
+    width: 2rem;
+}
+.navbar{
+    position: absolute;
+    background: transparent !important;
+    width: 100%;
+    z-index: 10;
+  
+}
