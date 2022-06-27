@@ -1,3 +1,6 @@
+body{
+    background: black ;
+}
 .icononav{ 
     width: 2rem;
 }
@@ -7,5 +10,12 @@
     width: 100%;
     z-index: 10;
     font-family: 'Quicksand', sans-serif;
-  
+}
+.text_cont{
+    text-align: center;
+    color: white;
+}
+.text2{
+    text-align: center;
+    color: white;
 }
