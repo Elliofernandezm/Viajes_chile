@@ -18,7 +18,7 @@
 <body>
     <header>
         <!-- Navbar -->
-        <nav class="navbar fixed top navbar-expand-lg navbar-dark   bg-light">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark   bg-light">
             <div class="container-fluid">
                 <img class="icononav ms-5" src="assets/img/viajes.svg" alt="icono">
                 <a class="navbar-brand" href="#">Viajes Chile</a>
@@ -72,14 +72,15 @@
     <main>
         <section class="m-5 p-5 text_cont">
             <h2 class=" mt-5">QUIENES SOMOS</h2>
-            <hr class="line1 mx-5 px-5">
-            <div class="container-fluid m-3 p-3 d-none d-sm-block d-md-block">
+            <hr class="line1 mx-5 px-3">
+            <div class="container-fluid ms-2 d-none d-sm-block d-md-block">
                 <div class="row ">
                     <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4">
                         <div id="icon" class="text-center">
                             <i class=" fas fa-plane fa-2x"></i>
                         </div>
-                        <p class="textcont">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis fugiat incidunt labore, non
+                        <p class="textcont">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis fugiat
+                            incidunt labore, non
                             soluta, at cumque rerum, odio iste reiciendis optio ab? Adipisci quo deserunt, veniam
                             numquam iure veritatis ipsa enim distinctio? Magnam adipisci aperiam id suscipit, corporis
                             ratione laboriosam iusto doloribus rem cupiditate distinctio maxime officia eius perferendis
@@ -92,7 +93,8 @@
                     </div>
 
                     <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4">
-                        <p class="textcont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, cumque impedit? Sunt sit
+                        <p class="textcont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, cumque
+                            impedit? Sunt sit
                             unde saepe quam quae, illo dolor ut. Quisquam excepturi, esse laborum quasi ut dolorem, sit
                             in incidunt eius doloribus eligendi similique animi quam eos dignissimos explicabo, totam
                             impedit aliquid eaque rem recusandae architecto enim cum voluptatibus. Enim aut et beatae
@@ -101,33 +103,40 @@
                             eaque obcaecati animi eligendi quasi illum et nostrum sint dolor soluta enim laudantium,
                             necessitatibus dolorem debitis, quae recusandae vel exercitationem voluptatibus eum eos?
                             Fuga, pariatur?</p>
-                            <div id="icon" class="text-center icon">
-                                <i class="fas fa-mountain fa-2x"></i>
-                            </div>
+                        <div id="icon" class="text-center icon">
+                            <i class="fas fa-mountain fa-2x"></i>
                         </div>
-                    
+                    </div>
+
                     <div class="col-md-4 col-lg-4">
                         <div id="icon" class="text-center">
                             <i class="fas fa-route fa-2x"></i>
-                    </div>
-                    <div>
-                        <p class="textcont">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus illo qui inventore repellat
-                            maiores consequatur? Ratione provident, nihil magni modi explicabo ducimus animi quasi nulla
-                            nemo corporis neque aut sit labore voluptates! Nobis eligendi nulla sequi dolore modi
-                            accusamus ipsam est ad labore maiores? A totam cum odio amet sint molestiae est quidem
-                            similique, nam assumenda quae minus repellat eligendi dignissimos maxime! Nihil eveniet
-                            voluptate itaque veritatis laboriosam minus, corporis cumque ex ducimus tempora et
-                            blanditiis ratione velit quos. Modi adipisci repudiandae consectetur voluptas quae, aliquam
-                            tempore dignissimos saepe provident similique minus libero aspernatur fugit facilis harum
-                            esse aliquid illum!
-                        </p>
+                        </div>                
+                        <div>
+                            <p class="textcont">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus illo qui
+                                inventore repellat
+                                maiores consequatur? Ratione provident, nihil magni modi explicabo ducimus animi quasi
+                                nulla
+                                nemo corporis neque aut sit labore voluptates! Nobis eligendi nulla sequi dolore modi
+                                accusamus ipsam est ad labore maiores? A totam cum odio amet sint molestiae est quidem
+                                similique, nam assumenda quae minus repellat eligendi dignissimos maxime! Nihil eveniet
+                                voluptate itaque veritatis laboriosam minus, corporis cumque ex ducimus tempora et
+                                blanditiis ratione velit quos. Modi adipisci repudiandae consectetur voluptas quae,
+                                aliquam
+                                tempore dignissimos saepe provident similique minus libero aspernatur fugit facilis
+                                harum
+                                esse aliquid illum!
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div>    
         </section>
-        <h2 class="text2 m-4">DESTACADOS</h2>
-        <hr class="text2">
-        <div class="container text2">
+        <div>
+            <h2 class="text2 m-4">DESTACADOS</h2>
+            <hr class="text2">
+        </div>
+        <div class="container-fluid mx-5 px-5 text2">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 pb-3">
                     <div class="card h-100 img-fluid" style="width: 24rem;">
@@ -149,7 +158,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 pb-3">
                     <div class="card h-100 img-fluid" style="width: 24rem;">
                         <img src="assets/img/card3.jpg" class="card-img" alt="viaje 3">
@@ -172,27 +180,30 @@
                 </div>
             </div>
         </div>
-    <section>
-        <form class="row g-3 m-5 p-5">
-            <div class="col-12">
-                <label for="inputname" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="inputname" placeholder="Nombre">
-            </div>
-            <div class="col-12">
-                <label for="inputsubject" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="inputsubject" placeholder="Asunto">
-            </div>
-        
-            <div class="col-md-12 ">
-                <label for="inputmessage" class="form-label">Mensaje</label>
-                <input type="text" class="form-control form" id="input Mensaje">
-            </div>
-         
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
-        </form>
-    </section>
+
+        <div>
+            <h2 class="text2 mx-5 mt-5">CONTACTO</h2>
+            <hr class="text2">
+            <form class="row ms-4 p-5">
+                <div class="col-12">
+                    <label for="inputname" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputname" placeholder="Nombre">
+                </div>
+                <div class="col-12">
+                    <label for="inputsubject" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="inputsubject" placeholder="Asunto">
+                </div>
+
+                <div class="col-md-12 ">
+                    <label for="inputmessage" class="form-label">Mensaje</label>
+                    <input type="text" class="form-control form" id="input Mensaje">
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
 
     </main>
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 card-body ">
@@ -212,7 +223,7 @@
             </li>
         </ul>
     </footer>
-    <!-- bootstrap v5.1.3-->
+    <!-- BTS v5.1.3-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
