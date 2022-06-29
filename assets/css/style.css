@@ -13,9 +13,51 @@ body{
 }
 .text_cont{
     text-align: center;
+    justify-content: flex-start;
     color: white;
+    font-family: 'Quicksand', sans-serif; 
 }
+/*color texto contenido*/
 .text2{
     text-align: center;
+    color: white;
+    justify-content: end;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.textcont{
+    text-align: left;
+}
+#icon{
+    background: #5093F4
+}
+/*tamaño imagen card*/
+.card-img{
+    height: 15rem;
+}
+.card-body{
+    background-color:#5093F4;
+    font-family: 'Quicksand', sans-serif;
+}
+.form{
+    height: 10rem;
+}
+.text3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.fa-github{
+    color: white;
+}
+.fa-linkedin{
+    color: white;
+}
+
+.fa-twitter-square{
+    color: white;
+}
+.fa-facebook-square{
     color: white;
 }

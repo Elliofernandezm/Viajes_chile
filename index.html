@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
     <title>Viajes Chile</title>
+    <script src="https://kit.fontawesome.com/26f535868e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -69,13 +70,16 @@
         </div>
     </header>
     <main>
-        <section class=" text_cont">
+        <section class="m-5 p-5 text_cont">
             <h2 class=" mt-5">QUIENES SOMOS</h2>
             <hr class="line1 mx-5 px-5">
-            <div class="container m-5 p-5 d-none d-sm-block d-md-block contain">
-                <div class="row">
-                    <div class="col-4">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis fugiat incidunt labore, non
+            <div class="container-fluid m-3 p-3 d-none d-sm-block d-md-block">
+                <div class="row ">
+                    <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4">
+                        <div id="icon" class="text-center">
+                            <i class=" fas fa-plane fa-2x"></i>
+                        </div>
+                        <p class="textcont">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis fugiat incidunt labore, non
                             soluta, at cumque rerum, odio iste reiciendis optio ab? Adipisci quo deserunt, veniam
                             numquam iure veritatis ipsa enim distinctio? Magnam adipisci aperiam id suscipit, corporis
                             ratione laboriosam iusto doloribus rem cupiditate distinctio maxime officia eius perferendis
@@ -83,11 +87,12 @@
                             Ipsum eum aperiam repellat impedit sunt reprehenderit, debitis dolorum fuga illum laudantium
                             nulla expedita tempora hic! Voluptatem, dolor id? Aspernatur illum ex optio nulla ea
                             suscipit accusantium saepe, non laborum molestiae sint ut! Explicabo, ipsum tempora!
-                            Eveniet, recusandae?</p>
+                            Eveniet, recusandae?
+                        </p>
                     </div>
 
-                    <div class="col-4">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, cumque impedit? Sunt sit
+                    <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4">
+                        <p class="textcont">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, cumque impedit? Sunt sit
                             unde saepe quam quae, illo dolor ut. Quisquam excepturi, esse laborum quasi ut dolorem, sit
                             in incidunt eius doloribus eligendi similique animi quam eos dignissimos explicabo, totam
                             impedit aliquid eaque rem recusandae architecto enim cum voluptatibus. Enim aut et beatae
@@ -96,10 +101,17 @@
                             eaque obcaecati animi eligendi quasi illum et nostrum sint dolor soluta enim laudantium,
                             necessitatibus dolorem debitis, quae recusandae vel exercitationem voluptatibus eum eos?
                             Fuga, pariatur?</p>
+                            <div id="icon" class="text-center icon">
+                                <i class="fas fa-mountain fa-2x"></i>
+                            </div>
+                        </div>
+                    
+                    <div class="col-md-4 col-lg-4">
+                        <div id="icon" class="text-center">
+                            <i class="fas fa-route fa-2x"></i>
                     </div>
-
-                    <div class="col-4">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus illo qui inventore repellat
+                    <div>
+                        <p class="textcont">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus illo qui inventore repellat
                             maiores consequatur? Ratione provident, nihil magni modi explicabo ducimus animi quasi nulla
                             nemo corporis neque aut sit labore voluptates! Nobis eligendi nulla sequi dolore modi
                             accusamus ipsam est ad labore maiores? A totam cum odio amet sint molestiae est quidem
@@ -115,11 +127,11 @@
         </section>
         <h2 class="text2 m-4">DESTACADOS</h2>
         <hr class="text2">
-        <div class="container">
+        <div class="container text2">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 pb-3">
-                    <div class="card h-100 m-auto" style="width: 24rem;">
-                        <img src="assets/img/card1.jpg" class=" textcard" alt="viaje 1">
+                    <div class="card h-100 img-fluid" style="width: 24rem;">
+                        <img src="assets/img/card1.jpg" class="card-img" alt="viaje 1">
                         <div class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sit amet </h5>
                             <p class="card-text textcard">Mus enim elementum dignissim class eleifend justo, ut nunc
@@ -128,43 +140,77 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 pb-3">
-                    <div class="card h-100 m-auto" style="width: 24rem;">
-                        <img src="assets/img/card2.jpg" class=" textcard" alt="viaje 4 ">
+                    <div class="card h-100 img-fluid" style="width: 24rem;">
+                        <img src="assets/img/card2.jpg" class="card-img" alt="viaje 2 ">
                         <div class="card-body">
-                            <h5 class="card-title">PLATEADA</h5>
-                            <p class="card-text">ome quick example text to build on the card title and make
-                                up the bulk of the card's content.</p>
+                            <h5 class="card-title"> Cumque delectus praesentium eum</h5>
+                            <p class="card-text">ome quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
-            
+
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 pb-3">
-                    <div class="card h-100 m-auto" style="width: 24rem;">
-                        <img src="assets/img/card3.jpg" class=" textcard" alt="viaje 3">
+                    <div class="card h-100 img-fluid" style="width: 24rem;">
+                        <img src="assets/img/card3.jpg" class="card-img" alt="viaje 3">
                         <div class="card-body">
-                            <h5 class="card-title">PLATEADA</h5>
-                            <p class="card-text">ome quick example text to build on the card title and make
-                                up the bulk of the card's content.</p>
+                            <h5 class="card-title"> corrupti eligendi maiores distinctio ipsum natus</h5>
+                            <p class="card-text">ome quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
                     </div>
-                </div>                 
+                </div>
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 pb-3">
-                    <div class="card h-100 m-auto" style="width: 24rem;">
-                        <img src="assets/img/card4.jpg" class=" textcard" alt="viaje 4 ">
+                    <div class="img-fluid card h-100" style="width: 24rem;">
+                        <img src="assets/img/card4.jpg" class="card-img" alt="viaje 4 ">
                         <div class="card-body">
-                            <h5 class="card-title">PLATEADA</h5>
-                            <p class="card-text">ome quick example text to build on the card title and make
-                                up the bulk of the card's content.</p>
+                            <h5 class="card-title"> Delectus eveniet earum nisi atque nihil tempore.</h5>
+                            <p class="card-text">ome quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    <section>
+        <form class="row g-3 m-5 p-5">
+            <div class="col-12">
+                <label for="inputname" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputname" placeholder="Nombre">
+            </div>
+            <div class="col-12">
+                <label for="inputsubject" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="inputsubject" placeholder="Asunto">
+            </div>
         
+            <div class="col-md-12 ">
+                <label for="inputmessage" class="form-label">Mensaje</label>
+                <input type="text" class="form-control form" id="input Mensaje">
+            </div>
+         
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </section>
 
     </main>
-    <footer>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 card-body ">
+        <div class="col-md-4 d-flex align-items-center ms-5">
+            <span class="text3 ms-5">VIAJES CHILE</span>
+        </div>
 
+        <ul class="nav col-md-4 me-5 justify-content-end list-unstyled d-flex footer-icons ">
+            <li class="my-3 pe-3"><a class="text-muted" target="_blank" href=""><i class="fab fa-github fa-2x"></i></a>
+            </li>
+            <li class="my-3 pe-3"><a class="text-muted" target="_blank" href="https://www.linkedin.com/"><i
+                        class="fab fa-linkedin fa-2x"></i></a></li>
+            <li class="my-3 pe-3"><a class="text-muted" target="_blank" href="https://twitter.com/"><i
+                        class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li class="my-3 pe-5"><a class="text-muted" target="_blank" href="https://www.facebook.com/"><i
+                        class="fab fa-facebook-square fa-2x"></i></a>
+            </li>
+        </ul>
     </footer>
     <!-- bootstrap v5.1.3-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
