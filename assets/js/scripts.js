@@ -22,11 +22,11 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
 
+let exampleFormControlInput1 = document.querySelector("#exampleFormControlInput1");
+function send() {
+  console.log(exampleFormControlInput1.value);
+}
 $(document).ready(function () {
     $("#btn").click(function () {
         const correo =  alert ("Tu Mensaje fue enviado")
-    })
-    
-})
-var
-
+    })})
